@@ -1,5 +1,5 @@
 {
-  "name": "@netop/jsoneditor",
+  "name": "@netop-cloud/jsoneditor",
   "version": "7.5.0",
   "main": "./index",
   "description": "A web-based tool to view, edit, format, and validate JSON",
