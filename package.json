@@ -1,5 +1,5 @@
 {
-  "name": "jsoneditor",
+  "name": "@netop/jsoneditor",
   "version": "7.5.0",
   "main": "./index",
   "description": "A web-based tool to view, edit, format, and validate JSON",
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/josdejong/jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/josdejong/jsoneditor.git"
+    "url": "https://github.com/netop-cloud/jsoneditor.git"
   },
   "bugs": "https://github.com/josdejong/jsoneditor/issues",
   "scripts": {
