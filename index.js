@@ -1,4 +1,4 @@
 module.exports = {
-    default: require('./dist/jsoneditor-minimalist'),
+    default: require('./dist/jsoneditor'),
     minimalist: require('./dist/jsoneditor-minimalist')
 }
