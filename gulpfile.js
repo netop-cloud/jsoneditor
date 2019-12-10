@@ -20,7 +20,7 @@ const DOCS = './src/docs/*'
 const DIST = path.join(__dirname, 'dist')
 
 // generate banner with today's date and correct version
-function createBanner () {
+function createBanner() {
   const today = format.asString('yyyy-MM-dd', new Date()) // today, formatted as yyyy-MM-dd
   const version = require('./package.json').version // math.js version
 
@@ -93,7 +93,7 @@ const compilerMinimalist = webpack({
   cache: true
 })
 
-function minify (name) {
+function minify(name) {
   const code = String(fs.readFileSync(DIST + '/' + name + '.js'))
   const result = uglify.minify(code, {
     sourceMap: {
@@ -243,7 +243,8 @@ gulp.task('default', gulp.series(
     'copy-img',
     'copy-docs',
     'bundle-css',
-    gulp.series('bundle', 'minify'),
+    // Removing the regular bundle as we don't want it in the netop app
+    //gulp.series('bundle', 'minify'),
     gulp.series('bundle-minimalist', 'minify-minimalist')
   )
 ))
