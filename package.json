@@ -1,6 +1,6 @@
 {
   "name": "@netop-cloud/jsoneditor",
-  "version": "7.5.2",
+  "version": "7.5.8",
   "main": "./index",
   "description": "A web-based tool to view, edit, format, and validate JSON",
   "tags": [

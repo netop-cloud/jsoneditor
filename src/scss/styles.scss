@@ -1,8 +1,10 @@
 $jse-white: #ffffff;
-$jse-grey:#999999;
+$jse-grey: #999999;
 $jse-light-bg: #ebebeb;
 $jse-blue: #3883fa;
 $jse-content-color: #1a1a1a;
+$jse-menu-border-color: #ede7e7;
+$jse-menu-bg-color: #f7f7f7;
 
 $jse-string: #006000;
 $jse-number: #ee422e;
@@ -17,8 +19,8 @@ $jse-busy-border-color: #ffee00;
 
 $jse-error: #ee2e2e70;
 $jse-separator: #e5e5e5;
-$jse-highlight-bg: #ffee00;
-$jse-highlight-border-color: #ffc700;
+$jse-highlight-bg: white;
+$jse-highlight-border-color: #69bcfa;
 
 $jse-popover-bg: #4c4c4c;
 $jse-bar-bg: $jse-light-bg;
@@ -34,6 +36,7 @@ $jse-box-shadow-inner: inset 0 0 10px rgba(128, 128, 128, 0.5);
 
 $jse-date: #a1a1a1;
 
-$jse-font: arial, sans-serif;
-$jse-font-mono: "dejavu sans mono", "droid sans mono", consolas, monaco, "lucida console", "courier new", courier, monospace, sans-serif;
+$jse-font: rubik, arial, sans-serif;
+$jse-font-mono: rubik, "dejavu sans mono", "droid sans mono", consolas, monaco, "lucida console", "courier new", courier,
+  monospace, sans-serif;
 $jse-font-size: 10pt;

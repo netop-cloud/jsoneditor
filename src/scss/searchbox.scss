@@ -2,12 +2,10 @@
 .jsoneditor {
   &-search {
     font-family: $jse-font;
-    position: absolute;
-    right: 4px;
-    top: 4px;
     border-collapse: collapse;
     border-spacing: 0;
-    display: flex;
+    position: absolute;
+    right: 4px;
 
     input {
       color: $jse-content-color;
