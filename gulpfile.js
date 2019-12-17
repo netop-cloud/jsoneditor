@@ -243,8 +243,7 @@ gulp.task('default', gulp.series(
     'copy-img',
     'copy-docs',
     'bundle-css',
-    // Removing the regular bundle as we don't want it in the netop app
-    //gulp.series('bundle', 'minify'),
+    gulp.series('bundle', 'minify'),
     gulp.series('bundle-minimalist', 'minify-minimalist')
   )
 ))
